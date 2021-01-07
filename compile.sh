@@ -29,7 +29,7 @@ echo "__________________________________________________________________________
 
 echo " Now lets sync the Latest Orange Fox Sources [ Latest 9.0 ] "
 echo " Press Enter to Start "
-read -r ans
+read -r Ans
 cd || return
 cd scripts || return
 mkdir Orangefox
@@ -86,7 +86,7 @@ export FOX_R11="1"
 export FOX_ADVANCED_SECURITY="1"
 export FOX_RESET_SETTINGS="1"
 # Import OrangeFox build variables
-source configs/"${code}"_ofconfig
+source ~/OrangeFox-Universal-Compile-Tool/configs/"${code}"_ofconfig
 echo " Now tell me the version "
 read -r version
 export FOX_VERSION="${version}"
