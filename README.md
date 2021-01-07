@@ -1,16 +1,15 @@
-# OrangeFox For your Xiaomi Device
+# OrangeFox For your Device
 
 Hello Everyone !!!
 _______________________________________
 Welcome to my OrangeFox Repo 
 
-Here you can use my Script to create OrangeFox Recovery for your Xiaomi Device very easily.
+Here you can use my Script to create OrangeFox Recovery for your Device very easily.
 
-Now you dont need to remember which commands to use, just run this script and Compile OrangeFox Recovery 🦊
+Now you can automate the compile prosses, just add a config file for your device, run this script and as long as everthing is good (e.g. The Config File and Device Tree); Compile OrangeFox Recovery 🦊
 _______________________________________
 
-If you have any Doubts regarding this Script, you can ask me on my telegram @Sammy970 https://t.me/Sammy970
-
-Would love to help you.
+If you have any Doubts regarding this Script, you can ask me on my telegram @p_gghhkm_q https://t.me/p_gghhkm_q
+A specal thanks to @Sammy970 https://t.me/Sammy970
 
 _______________________________________
