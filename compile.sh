@@ -28,6 +28,7 @@ bash scripts/setup/android_build_env.sh
 echo "_________________________________________________________________________________________"
 
 echo " Now lets sync the Latest Orange Fox Sources [ Latest 9.0 ] "
+echo " Press Enter to Start "
 read -r ans
 cd || return
 cd scripts || return
@@ -50,10 +51,13 @@ read -r vendor
 echo " Now Give me your trees github link "
 read -r trees
 
-
 cd || return
 cd scripts/Orangefox || return
 git clone "$trees" device/"$vendor"/"$code"
+clear
+echo " If you have to edit the cloned tree (e.g. BoardConfig.mk) do it now. "
+echo " Press Enter to Start "
+read -r Ans
 
 echo "_________________________________________________________________________________________"
 
