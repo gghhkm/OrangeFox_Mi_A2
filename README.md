@@ -16,7 +16,6 @@ _______________________________________
 
 Recommended Device Trees :
 
-https://github.com/mauronofrio/android_device_oneplus_fajita_TWRP Edit BoardConfig.mk
 
 https://github.com/TeamWin/android_device_oneplus_cheeseburger_dumpling Edit BoardConfig.mk
 
