@@ -1,33 +1,8 @@
-FDEVICE="j4corelte"
-
-fox_get_target_device() {
-local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)
-   if [ -n "$chkdev" ]; then
-      FOX_BUILD_DEVICE="$FDEVICE"
-   else
-      chkdev=$(set | grep BASH_ARGV | grep $FDEVICE)
-      [ -n "$chkdev" ] && FOX_BUILD_DEVICE="$FDEVICE"
-   fi
-}
-
-if [ -z "$1" -a -z "$FOX_BUILD_DEVICE" ]; then
-   fox_get_target_device
-fi
-
-if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
-
-	#Device Spes
-        	export PLATFORM_VERSION="16.1.0"
-   		    export PLATFORM_SECURITY_PATCH="2099-12-31"
-   		    export TW_DEFAULT_LANGUAGE="en"
-        	export OF_SCREEN_H=2220
-            export OF_ALLOW_DISABLE_NAVBAR=0
-        	export TARGET_ARCH=arm
-
-
-#TODO
+export TARGET_ARCH=arm
 export OF_USE_MAGISKBOOT=1
 export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
+export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_FLASHLIGHT_ENABLE=1
+export OF_SCREEN_H=2220
 export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
