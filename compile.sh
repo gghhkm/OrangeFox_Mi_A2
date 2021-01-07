@@ -64,6 +64,12 @@ echo "__________________________________________________________________________
 echo " Lets Lunch it all together 😉😋 "
 lunch omni_$code
 
+# If lunch command fail, there is no need to continue building
+if [ "$?" != "0" ]; then
+	exit
+fi
+
+
 echo "_________________________________________________________________________________________"
 
 echo " Lets Start Building "
