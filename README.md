@@ -11,15 +11,6 @@ _______________________________________
 
 If you have any Doubts regarding this Script, you can ask me on my telegram @p_gghhkm_q https://t.me/p_gghhkm_q
 A special thanks to @Sammy970 https://t.me/Sammy970
-
-_______________________________________
-
-Recommended Device Trees :
-
-
-https://github.com/TeamWin/android_device_oneplus_cheeseburger_dumpling Edit BoardConfig.mk
-
-https://github.com/Ryukendo9/android_device_xiaomi_jasmine_sprout-OFRP @Ryukendo9
 ____________________________________
 Edit BoardConfig.mk
 ```
