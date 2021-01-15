@@ -76,6 +76,7 @@ clear
 #----------------------------
 
 echo " Now lets start building the environment "
+cd scripts Orangefox || return
 source build/envsetup.sh
 
 #-------------------------
