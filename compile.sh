@@ -129,7 +129,7 @@ clear
 echo "_________________________________________________________________________________________"
 
 echo " Lets Launch it together 😉😋 "
-lunch omni_"${code}"
+lunch omni_"${code}"-eng
 
 # If lunch command fail, there is no need to continue building
 if [ "$?" != "0" ]; then
