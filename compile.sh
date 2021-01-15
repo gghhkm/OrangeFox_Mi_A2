@@ -31,6 +31,7 @@ clear
 cd || return
 git clone https://github.com/akhilnarang/scripts
 bash scripts/setup/android_build_env.sh
+sudo apt install git aria2 -y
 clear
 #---------------
 
