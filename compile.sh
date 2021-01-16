@@ -91,8 +91,6 @@ read -r Ans3
 
 if [ "${Ans3}" = 1 ]
 then
-source ~/OrangeFox-Universal-Compile-Tool/configs/"${code}"_ofconfig
-echo " Done importing your Device Specific settings "
 clear
 #-----
 elif [ "${Ans3}" = 2 ]
