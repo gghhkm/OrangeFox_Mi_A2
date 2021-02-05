@@ -76,7 +76,7 @@ rsync rsync://sources.orangefox.download/sources/fox_10.0 . --progress -a
 echo -n -e $Y'•'$N
 sleep 2
 clear
-
+cd ~/scripts/Orangefox || return
 #Questions
 # ----------------------------------------
 echo -e $P "Now tell me your device codename" $N; sleep 0.1;
