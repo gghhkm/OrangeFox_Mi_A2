@@ -47,8 +47,9 @@ sudo pacman -S git aria2 python nano
 echo -n -e $Y'              •'$N; sleep 0.3;
 echo -n -e $Y'•'$N; sleep 0.4;
 {
+cd ~ || return
 git clone https://gitlab.com/OrangeFox/misc/scripts
-cd scripts
+cd scripts || return
 sudo bash setup/android_build_env.sh
 sudo bash setup/install_android_sdk.sh
 }&> /dev/null 
